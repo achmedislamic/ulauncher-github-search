@@ -25,3 +25,4 @@ https://github.com/Glovecc/ulauncher-github-search
 ## License 
 
 Copywright @ 2020 [Junian](https://github.com/Glovecc)
+Forked By [Achmed Islamic Hernawan] (https://github.com/achmedislamic)
