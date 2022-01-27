@@ -32,11 +32,13 @@ class KeywordQueryEventListener(EventListener):
                 "https://api.github.com/search/repositories?q=%s&sort=stars&page=1&order=desc&per_page=10" % query ).json()
             items = []
             for i in result["items"]:
+                url = i["html_url"]
+                replace = url.replace('github.com', 'github.dev')
                 items.append(ExtensionResultItem(icon='images/icon.png',
                                                  name=i["full_name"],
                                                  description=str(
                                                      i["description"]),
-                                                 on_enter=OpenUrlAction(i["html_url"])))
+                                                 on_enter=OpenUrlAction(replace)))
 
             return RenderResultListAction(items)
 
