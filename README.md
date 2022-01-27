@@ -19,10 +19,11 @@
 Open ulauncher preferences window -> extensions -> add extension and paste the following url:
 
 ```
-https://github.com/Glovecc/ulauncher-github-search
+https://github.com/achmedislamic/ulauncher-github-search
 ```
 
 ## License 
 
 Copywright @ 2020 [Junian](https://github.com/Glovecc)
+
 Forked By [Achmed Islamic Hernawan] (https://github.com/achmedislamic)
