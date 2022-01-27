@@ -2,7 +2,7 @@
     "required_api_version": "^2.0.0",
     "name": "Github search",
     "description": "Convenient search for projects on Github",
-    "developer_name": "Junian",
+    "developer_name": "Achmed Islamic Hernawan",
     "icon": "images/icon.png",
     "options": {
         "query_debounce": 1
@@ -12,7 +12,7 @@
             "id": "keyword",
             "type": "keyword",
             "name": "Github",
-            "default_value": "gb"
+            "default_value": "gh"
         }
     ]
 }
